@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-all{
+    position: fixed;   
+    align-items: center;
+    display: flex;
+    background-color: #0000001f;
+    width: 100%;
+    padding: 20px 50px;
+
+   
+}
+.logo{
+    padding: 0 25px;
+    margin-right: 30px;
+    width: 15%;
+}
+.logo a img{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav{
+    width: 63%;
+}
+.navs{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.navs a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 22px;
+    font-family: sans-serif;
+    
+}
+
+.booknow a{
+    color: #ffffff;
+    border: 1px solid #ba71da;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: #ba71da;
+}
+.hamb{
+    
+    width: 18%;
+    display: flex;
+    justify-content: flex-end;
+}
+.hamb img{
+    width: 25px;
+    cursor: pointer;
+
+}
+#holiday{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    padding: 15rem 5rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.holiday-items{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.choose{
+    width: 100%;
+    margin: 20px 0;
+
+}
+#dests{
+    width: 54%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    appearance: none;
+
+}
+#dest-select{
+    position: relative;
+}
+.search-btn{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/plugins/nd-travel/addons/visual/search/layout/icon-search-grey.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 158px;
+    top: 10px;
+    cursor: pointer;
+
+}
+.holiday-text h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+.holiday-text h6{
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 25px 0;
+
+}
+.holiday-type{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;   
+    justify-content: center;
+}
+
+.types{
+    width: 18%;
+    background: rgba(0,0,0,0.21);
+    padding: 20px;
+    margin: 15px;
+}
+.types a img{
+    width: 40px;
+}
+.types a h6{
+    color: #ffffff;
+    font-size: 16px;
+}
+.destinations-items{
+    width: 100%;
+
+}
+.destinations-text{
+    text-align: center;
+    margin: 50px 0;
+}
+.destinations-text h3{
+    color: #9a9a9a;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+ 
+}
+.destinations-text h2{
+   font-size: 36px;
+   color: #555555;
+   font-weight: bold;
+}
+.destinations-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dest-box{
+    width: 33%;
+    padding: 13px;
+    
+}
+.dest-box img{
+    width: 100%;
+    transition: 0.7s;
+    
+   
+}
+.dest-box img:hover {
+    transform: scale(.85);
+    
+    
+    
+}
+.all-view{
+    width: 100%;
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+    padding: 5rem;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    margin: 70px 0px;
+}
+
+.view-cont{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.view-text{
+    color: #ffffff;
+    width: 57%;
+}
+.view-text h6{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.view-btn{
+    width: 35%;
+}
+.view-btn a{
+    padding: 15px 35px;
+    background-color: #ffffff;
+    border-radius: 38px;
+    color: #f76570;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}
+
+
+
+
