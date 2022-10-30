@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.tour .destination{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 60px;
+
+}
+.tour {
+    padding: 50px 135px;
+
+}
+.destination p{
+    font-size: 16.8px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.subtext{
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.divider{
+    width: 4%;
+    margin: 0 auto;
+    height: 5px;
+    border: none;
+}
+.box img{
+    border-radius: 100%;
+    width: 100%;
+    transition: .5s;
+    
+}
+.box img:hover{
+    filter:brightness(.8);
+}
+
+.box{
+    width: 18%;
+    cursor: pointer;
+}
+
+.countries{
+    display: flex;
+    justify-content: space-between; 
+}
+.achievements{
+    background-image: url(https://travelwp.physcode.com/wp-content/uploads/2016/09/bg-pallarax.jpg);
+    padding: 5rem 135px;
+    background-position: center;
+    background-size: cover;
+}
+.top{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.top h3{
+    font-size: 22px ;
+    margin-bottom: 15px;
+}
+.top p{
+    font-size: 16.8px;
+    margin-bottom: 10px;
+}
+.bottom i{
+    font-size: 50px;
+    color: #fff;
+    height: 86px;
+}
+.bottom{
+    justify-content: space-between;
+    display: flex;
+}
+.box1{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box1 p{
+    color: #ffb300;
+    font-size: 55px;
+}
+.box1 span{
+    color: #fff;
+    font-size: 14px;
+}
+.icon_btn i{
+    font-size: 20px;
+    margin-right: 7px;
+
+}
+.icon_btn a{
+    text-decoration: none;
+    border: 1px solid #ffb300;
+    background-color: #ffb300;
+    color: black;
+    font-size: 14px;
+    padding: 12px;
+    
+}
+.icon_btn{
+    margin-top: 3rem;
+    text-align: center;
+}
+.header{
+    background-color: #414b4f;
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 0;
+
+}
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;   
+}
+
+ul{
+    list-style: none;
+}
+.left{
+    display: flex;
+}
+.right ul{
+    display: flex;
+}
+.right{
+    font-size: 12px;
+    
+}
+.right address{
+    margin-left: 25px;
+}
+.right li i{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.right li{
+    margin-left: 20px;
+}
+.login-register{
+    color: #cccccc;
+}
+.main{
+    background-image: url(/Photos/background_img.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 0;
+}
+.logo a img{
+    width: 190px;
+    height: 57.9px;
+}
+
+.navs ul{
+    display: flex;
+}
+.navs >ul>li>a{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 22px 25px;
+    text-decoration: none;
+}
+.navs{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    width: 60%;
+}
+.text{
+    text-align: center;
+    color: #fff;
+}
+.bottomhead{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding-top: 12px;
+}
+.searchbar{
+    color: #fff;
+    padding: 0 20px
+    
+    
+}
+.search{
+    border: 2px solid #ffb300;
+    padding: 4px 8.5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search:hover{
+    background: #ffb300;
+   
+}
+.text p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.text h3{
+    font-size: 31px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.view a{
+    padding: 11px 33px;
+    color: black;
+    background-color: #ffb300;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.view:hover a{
+    color: #ffb300;
+    background-color: #fff;
+} 
+.whyUs{
+    padding: 50px 0px;
+}
+.title{
+    text-align: center;
+}
+.cons{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    
+}
+.cons .box1 i{
+    font-size: 80px;
+    background-color: #26bdf7;
+    border-radius: 100%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.boxtitle{
+    color: #333333;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.box1 .boxsubtitle{
+    color: #555555;
+    font-size: 14px;
+}
